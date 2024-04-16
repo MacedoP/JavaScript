@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesta aula vamos falar sobre o Metodo Reduce</title>
+    <style>
+        #caixa_array{
+            border: 2px solid #10691B;
+            background-color: #DBF9E1;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #caixa_pesqusar{
+            border: 2px solid #133B7D;
+            background-color: #DDE5FF;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0px;
+            gap: 10px;
+            
+
+        }
+        input{
+            width: 300px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+        }
+        #tbn_reduzir{
+            width: 200px;
+            padding: 5px;
+            color: #fff;
+            background-color: #001E55;
+            border-radius: 10px;
+        }
+
+        #caixa_resultado{
+            border: 2px solid #7E1C0F;
+            background-color: #FFDFDD;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="caixa_array" class="caxa verde">
+        <p>Array: </p>
+        <p id="array"></p>
+    </div>
+
+    <div id="caixa_pesqusar" class="caixa azul">
+        <button id="tbn_reduzir">Pesquisar</button>
+    </div>
+
+    <div id="caixa_resultado" class="caixa vermelha">
+        <p>Resultado: </p>
+        <p id="resultado"></p>
+    </div>
+    <script src="./aula20_Reduce.js"></script>
+    
+</body>
+</html>
