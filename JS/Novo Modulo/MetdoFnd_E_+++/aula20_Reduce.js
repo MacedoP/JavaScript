@@ -12,7 +12,7 @@ const elementos_array = [1,2,3,4,5]
 let ant=[];
 let act=[]
 
-parray.innerHTML= "["+elementos_array+"]";
+parray.innerHTML= "["+elementos_array+"]";//Esta linha apenas serve para imprimirmos o nosso codigo
 
 btn_reduzir.addEventListener('click',(evet)=>{
     resultado.innerHTML = elementos_array.reduce((anterior,actual,pos)=>{
