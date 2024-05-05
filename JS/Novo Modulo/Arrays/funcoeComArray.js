@@ -8,7 +8,7 @@ let op= [
             return res
         },
         (val)=>{
-            let res=1;
+            let res=1;    
             for(v of val){
                 res *= v
             }

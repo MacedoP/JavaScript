@@ -13,7 +13,7 @@ mapa.set(2,"canal")
 
 
 caixa.innerHTML = mapa.get("curso")//forma de obter um valor
-if(mapa.has(2)){
+if(mapa.has(2)){//Fazendo a verificacao se a key 2 exite dentro da nossa colecao
     caixa.innerHTML = 'Existe na sua colecao'
 }else{
     caixa.innerHTML = 'Nao exite na sua colecao'
