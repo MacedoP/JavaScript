@@ -1,12 +1,11 @@
 /*
     Vamos comecar a falar de arrays 
 <<<<<<< HEAD
- */
 
     const numeros = [1,2,3].push(4)
 
     console.log(numeros.push(5))
-=======
+
     Array é um conjunto de valores
     Obs: dentro de um array em js podemos armazer diversos valores ou tipos diferentes
  */
@@ -34,4 +33,4 @@ cursos.map((el)=>{
 
 
 console.log(cursos)
->>>>>>> 3c6176b18447dd7417525e99c1509266effa9a9c
+
