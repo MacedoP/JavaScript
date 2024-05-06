@@ -1,4 +1,4 @@
-//Nesta aula vamos estudar sobre variaveis, em js nos temos [var=(Faznedo o uso esta variavel, ela nao tem restricao de escopo), let, const]
+//Nesta aula vamos estudar sobre variaveis, em js nos temos [var=(Fazendo o uso esta variavel, ela nao tem restricao de escopo), let, const]
 /*
     Var = tem restricao de escopo dentro de uma funcao
 
