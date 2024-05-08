@@ -24,9 +24,28 @@ class Carro{
         }
 
     }
+    
+    infoCarros(){
+        console.log(`O nome do teu carro é: ${this.nome}`);
+        console.log(`O teu carro é do tipo: ${this.tipo}`);
+        console.log(`O teu carro tem uma velocidade de : ${this.valoMax}`);
+
+
+    }
+
+
 
 }
+let c1 = new Carro("Camaro",1);
+let c2 = new Carro("Limosine",2);
+let c3 = new Carro("Mini Cooper",3);
+let c4 = new Carro("Camase",4)
 
+c1.infoCarros();
+console.log("===================================");
+c2.infoCarros();
+console.log("===================================");
+c3.infoCarros();
 
 class Pessoa{
 
