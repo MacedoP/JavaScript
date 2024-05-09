@@ -22,7 +22,12 @@ class Carro{
             this.tipo = "Militar";
             this.valoMax = 180;
         }
-
+    }
+    setNome(){
+        this.nome = nome
+    }
+    getNome(){
+        return nome
     }
     
     infoCarros(){
